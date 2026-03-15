@@ -1,0 +1,68 @@
+/* Styles Généraux */
+body {
+  background-color: #F7F9FC;
+  color: #4A4A4A;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  margin: 0;
+}
+
+/* 1. Le Container : il centre tout sur 700px */
+.container {
+  width: 700px;
+  margin: 40px auto; /* 40px en haut/bas, auto à gauche/droite pour centrer */
+}
+
+/* 2. La Card White : le design de tes blocs */
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Styles spécifiques pour les éléments */
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #2C3E50;
+}
+
+h2 {
+  color: #3498DB;
+  font-weight: 500;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.list-inline li {
+  padding: 0 10px;
+  font-size: 30px;
+}
+
+/* Petit bonus : un bouton stylé */
+.btn-blue {
+  background-color: #6D5DFD;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.btn-blue:hover {
+  background-color: #4834DF;
+  color: white;
+  text-decoration: none;
+}
